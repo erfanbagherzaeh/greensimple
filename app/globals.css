@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav{
+    background-color: #202f10;
+    margin-bottom: 5px;
+}
+
+.img-bg{
+    background-image: url(../public//image//background.jpeg);
+    background-size: cover;
+}
+
+.bt1{
+    width: 90px;
+    height: 35px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    background-color: gold;
+    font-size: 12px;
+}
+
+.bt2{
+    width: 90px;
+    height: 35px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.filt{
+    filter: grayscale(100%);
+}
+.filt:hover{
+    filter: grayscale(0%);
+}
+
+.box{
+    margin-right: 1000px;
+    position: relative;
+    bottom: 250px;
+}
+
+.card{
+    position: relative;
+    bottom: 160px;
+}
