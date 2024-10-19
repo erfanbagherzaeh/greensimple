@@ -5,24 +5,24 @@ function Navbar(){
     return(
         <>
         {/* stable */}
-        <div className=" w-full h-14 nav flex shadow-xl">
+        <div className=" w-full h-16 nav flex shadow-xl">
             <div className="right w-full h-full flex flex-row justify-center items-center
             md:w-[50%] md:h-full md:flex md:justify-start">
-                <div className="w-[20%] h-full ">
-                    <Image className='logo w-[90%] h-[90%]  rounded-md mt-0.5 mr-1' src={logo} alt=''/>
+                <div className="w-[40%] h-full md:w-[20%]">
+                    <Image className='logo w-[50%] h-[90%]  rounded-md mt-0.5 mr-10' src={logo} alt=''/>
                 </div>
-                <div className="w-[80%] h-full  flex flex-row justify-center items-center text-white
-                md:justify-start">
+                <div className="w-[50%] h-full  flex flex-row justify-center items-center text-white
+                md:justify-start md:w=[80%]">
                     <Link href={'/'}>
-                        <div style={{fontSize:'12px'}} className="md:mx-5 mx-2 hover:border-b-2 border-yellow-300">صفحه  اصلی</div>
+                        <div style={{fontSize:'18px'}} className="w-[100px] md:mx-3 mx-2 hover:border-b-2 border-yellow-300">صفحه  اصلی</div>
                     </Link>
                     
                     <Link href={'/shoping'}>
-                        <div style={{fontSize:'12px'}} className="md:mx-5 mx-2 hover:border-b-2 border-yellow-300">فروشگاه</div>
+                        <div style={{fontSize:'18px'}} className="w-[70px] md:mx-3 mx-2 hover:border-b-2 border-yellow-300">فروشگاه</div>
                     </Link>
                     
                     <Link href={'/about'}>
-                        <div style={{fontSize:'12px'}} className="md:mx-5 mx-2 hover:border-b-2 border-yellow-300">درباره ما</div>
+                        <div style={{fontSize:'18px'}} className="w-[70px] md:mx-3 mx-2 hover:border-b-2 border-yellow-300">درباره ما</div>
                     </Link>
                     
                 </div>

@@ -14,20 +14,20 @@
 }
 
 .bt1{
-    width: 90px;
-    height: 35px;
+    width: 150px;
+    height: 55px;
     border: 1px solid gold;
     border-radius: 10px;
     background-color: gold;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .bt2{
-    width: 90px;
-    height: 35px;
+    width: 150px;
+    height: 55px;
     border: 2px solid gold;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .filt{
@@ -37,13 +37,3 @@
     filter: grayscale(0%);
 }
 
-.box{
-    margin-right: 1000px;
-    position: relative;
-    bottom: 250px;
-}
-
-.card{
-    position: relative;
-    bottom: 160px;
-}
